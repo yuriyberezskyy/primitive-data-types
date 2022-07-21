@@ -14,3 +14,12 @@ print(123+345)
 #Boolean
 True
 False
+
+#Type check and transform
+#print(type(num_char))
+num_char = len(input("What is your name? "))
+new_num_char = str(num_char)
+
+print("Your name has " + new_num_char + " characters.")
+
+
